@@ -5,15 +5,15 @@ df <- read.csv(
   fileEncoding = "UTF-8"
 )
 
-# Word count function
+# Word count function to count the words 
 word_count <- function(x) {
   x <- as.character(x)
   sapply(strsplit(x, "\\s+"), length)
 }
 
-# Compute word counts
+# Compute word counts for normal , chatgpt and gemini 
 df$normal_wc  <- word_count(df$normal_text)
-df$chatgpt_wc <- word_count(df$simpChatGpt)
+df$chatgpt_wc <- word_count(df$simpChatGPT)
 df$gemini_wc  <- word_count(df$simpGemini)
 
 # Paired t-tests

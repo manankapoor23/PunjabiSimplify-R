@@ -1,6 +1,6 @@
 # Punjabi Text Simplification Evaluation using Paired t-Test
 
-## 📌 Overview
+##  Overview
 This project evaluates whether Large Language Models (ChatGPT and Gemini)
 statistically simplify Punjabi news text.
 The Punjabi Dataset ( Normal VS ChatGPT Vs GEMINI) was prepared by-hand , using 29 lines from a Punjabi corpus of 16M+ tokens. This data was mainly scraped from websites such as news and wikipedia.
@@ -8,13 +8,13 @@ The Punjabi Dataset ( Normal VS ChatGPT Vs GEMINI) was prepared by-hand , using 
 Sentence simplification is measured using **sentence length (word count)**
 as a readability proxy.
 
-## 📊 Methodology
+## Methodology
 - Dataset: 29 Punjabi news sentences
 - Models: ChatGPT, Gemini
 - Metric: Word count per sentence
 - Test: Paired one-tailed t-test
 
-## 🧪 Statistical Tests
+##  Statistical Tests
 - Original vs ChatGPT
 - Original vs Gemini
 - ChatGPT vs Gemini
